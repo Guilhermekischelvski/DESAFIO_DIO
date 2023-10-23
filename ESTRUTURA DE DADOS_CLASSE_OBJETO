@@ -1,0 +1,13 @@
+class heroi{
+	constructor(mago, magia){
+    this.mago = mago
+    this.magia = magia
+    }
+    escrever(){
+    	console.log(`o ${this.mago} atacou usando ${this.magia}`)
+    }
+}
+
+let ataque = new heroi("mago", "magia")
+
+ataque.escrever()
